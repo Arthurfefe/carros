@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Lista de Carros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Link do Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4 text-center">Lista de Carros</h1>
+    <div id="carros-container" class="row g-4"></div>
+  </div>
+
+  <div id="painel-marcas" class="d-flex flex-wrap justify-content-center gap-3 mb-4"></div>
+
+<div class="corestudo">
+  <div class="text-center">
+    <h5 class="mb-3">Filtrar por Cor</h5>
+    <div class="d-flex flex-wrap justify-content-center">
+      <div class="color-option bg-light" data-cor="r" title="Todas as cores"></div>
+      <div class="color-option bg-white" data-cor="Branco" title="Branco"></div>
+      <div class="color-option bg-secondary" data-cor="Cinza" title="Cinza"></div>
+      <div class="color-option bg-dark" data-cor="Preto" title="Preto"></div>
+      <div class="color-option bg-light" style="background-color: silver;" data-cor="Prata" title="Prata"></div>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="tude">
+  <div class="search-container mb-4">
+    <div class="d-flex flex-wrap justify-content-center mb-4">
+        <img src="toyota.png" class="logo-marca" data-marca="Toyota">
+        <img src="honda.png" class="logo-marca" data-marca="Honda">
+        <img src="ford.png" class="logo-marca" data-marca="Ford">
+        <img src="chevrolet.png" class="logo-marca active" data-marca="Chevrolet">
+        <img src="fiat.png" class="logo-marca" data-marca="Fiat">
+        <img src="renault.png" class="logo-marca" data-marca="Renault">
+    </div>
+  
+</div>
+
+<div class="marcas-container mb-4">
+  <button class="btn btn-outline-light me-2" data-marca="Toyota">Toyota</button>
+  <button class="btn btn-outline-light me-2" data-marca="Honda">Honda</button>
+  <button class="btn btn-outline-light me-2" data-marca="Ford">Ford</button>
+  <button class="btn btn-outline-light me-2" data-marca="Chevrolet">Chevrolet</button>
+  <button class="btn btn-outline-light me-2" data-marca="Fiat">Fiat</button>
+  <button class="btn btn-outline-light me-2" data-marca="Renault">Renault</button>
+  <button class="btn btn-outline-primary" data-marca="Todos">Ver Todos</button>
+</div>
+</div>
+
+    
+    <div id="carros-container" class="row g-4"></div>
+  </div>
+    <script src="script.js"></script>
+    
+
+    
+</body>
+</html>

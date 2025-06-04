@@ -1,0 +1,215 @@
+  *{
+  margin: 0;
+}
+  
+  img{
+        width: 90px;
+    }
+
+    body{
+        background-image: url(911\ \(1\).jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+
+    .card {
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 20px;
+        color: white;
+        transition: transform 0.2s ease;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(5px);
+    }
+
+    .card:hover {
+        transform: scale(1.02);
+        box-shadow: 0 0 15px rgba(255, 0, 255, 0.3);
+    }
+
+    .car-img {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    .list-group-item {
+        background-color: transparent;
+        border: none;
+        color: white;
+    }
+
+    .card-link {
+        color: fuchsia;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .card-link:hover {
+        text-decoration: underline;
+        color: hotpink;
+    }
+
+    #filtro {
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .logo-marca {
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        cursor: pointer;
+        padding: 5px;
+        background-color: white;
+        border-radius: 50%;
+        transition: 0.2s;
+        margin: 5px;
+        border: 2px solid transparent;
+    }
+
+    .logo-marca:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px fuchsia;
+        border-color: fuchsia;
+    }
+
+    .logo-marca.active {
+        border-color: fuchsia;
+        box-shadow: 0 0 15px fuchsia;
+    }
+
+    .marca-title {
+        color: white;
+        text-shadow: 0 0 10px rgba(255, 0, 255, 0.7);
+        margin-bottom: 20px;
+    }
+
+    .search-container {
+        
+        padding: 20px;
+        border-radius: 15px;
+        margin-bottom: 30px;
+        backdrop-filter: blur(5px);
+    }
+
+    .no-results {
+        color: white;
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 30px;
+    }
+
+
+
+
+
+
+
+
+    .logo-marca {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    cursor: pointer;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 0.2s;
+    margin: 5px;
+    border: 2px solid transparent;
+}
+
+.logo-marca:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px fuchsia;
+    border-color: fuchsia;
+}
+
+.logo-marca.active {
+    border-color: fuchsia;
+    box-shadow: 0 0 15px fuchsia;
+}
+
+
+
+.marcas-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 15px;
+ 
+  border-radius: 10px;
+}
+
+.btn-marca {
+  transition: all 0.3s ease;
+}
+
+.btn-marca:hover, .btn-marca.active {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.5);
+}
+
+.btn-marca.active {
+  background-color: fuchsia;
+  border-color: fuchsia;
+  color: white;
+}
+
+.tude{
+  background-color: rgba(0, 0, 0, 0.7) ;
+}
+
+
+  .logo-marca {
+      width: 60px;
+      height: 60px;
+      cursor: pointer;
+      transition: transform 0.3s;
+      margin: 5px;
+    }
+    .logo-marca:hover {
+      transform: scale(1.1);
+    }
+    .logo-marca.active {
+      border: 3px solid #0d6efd;
+      border-radius: 10px;
+    }
+    .color-option {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 5px;
+      border: 2px solid transparent;
+    }
+    .color-option:hover {
+      transform: scale(1.1);
+    }
+    .color-option.active {
+      border: 2px solid #000;
+    }
+    .card {
+      transition: transform 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .mb-3{
+      color: thistle;
+   padding: 20px;
+    }
+ .corestudo{
+    background-color: rgba(0, 0, 0, 0.7) ;
+  margin: 0px;
+}
+.text-center{
+  margin: 0;
+     backdrop-filter: blur(5px);
+}
