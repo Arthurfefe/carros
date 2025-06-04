@@ -123,7 +123,7 @@ ordenarCrescente()
             </ul>
             <div class="card-body">
               <a href="https://www.webmotors.com.br/" class="card-link">Ver detalhes</a>
-              <a href="https://wa.me/34998746384" class="card-link" target="_blank">Contato</a>
+              <a href="https://wa.me/3498746384" class="card-link" target="_blank">Contato</a>
             </div>
           </div>
         `;
